@@ -1,13 +1,20 @@
 import sys # importing a library
-x = sys.argv[1] 
-print(sys.argv[0]) # this prints the name of the file
-print(x) # this print the command line input
-x = int(x)
-
-def
-    if (x % 3) / x  < 0 : # no need for brackets
+ 
+def fizz_buzz(z): # making a function
+    if (z % 3) / z  == 1: # no need for brackets
         print("Fizz")
-    if (x % 2 ) < 0:
+    if (z % 2 )/ z < 1:
         print ("Buzz")
     else : print ("Not mod 2 or 3")
+
+try: 
+    x = sys.argv[1]
+    x = int (x)
+    fizz_buzz(x) # calling a function
+
+except:
+    x = 1 
+    fizz_buzz(x)
+
+
 
