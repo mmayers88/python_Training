@@ -1,5 +1,9 @@
 import sys
 
+g = input ("Print Number") # Get the number from the user
+print("g is:" + str(g))
+x = int(g)
+
 class my_class:
     def do_something(x):
         print("did something")
@@ -14,6 +18,7 @@ for y in enumerate (x[:-1]): # all but the last one from the list
     print (str(y[1]))
     my_class.do_something(y)
 
-    
+
+
 
 
