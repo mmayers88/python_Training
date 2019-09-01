@@ -1,24 +1,28 @@
 import sys
 
-g = input ("Print Number") # Get the number from the user
-print("g is:" + str(g))
-x = int(g)
-
 class my_class:
-    def do_something(x):
-        print("did something")
+    data1 = 0
+    data2 = 0
+    data3 = 0
 
-try: # it tries and if it does not exist goes to the "except"
+def do_something(x):
+    print(str(x))
+
+def printdata():
+    def do_something(data1)
+    def do_something(data2)
+    def do_something(data3)
+
+
+try:  # it tries and if it does not exist goes to the "except"
     x = int(sys.argv[1])
 except:
-    x = ['x','y', 'z','y']
-    print("No Data")
+    x = input("Print Number ")
+    print("Z :" + str(x))
+    x = int (x)
 
-for y in enumerate (x[:-1]): # all but the last one from the list
-    print (str(y[1]))
-    my_class.do_something(y)
-
-
-
+for y in range(x):  # all but the last one from the list
+    print(str(y))
+    printdata()
 
 
